@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+$navColor: #F2F2F2;
+$bodyColor: #FFFFFF;
+$lightBlack: #434343;
+
+/* TopNav */
+.top-nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $navColor;
+}
+
+.call-number{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    span{
+        margin-left: 20px;
+    }
+}
+
+.nav-elements{
+    ul{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    li{
+        display: flex;
+        padding: 0px 35px;
+        border-right: 1px solid $lightBlack;
+        margin-right: 25px;
+    }
+    a{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $lightBlack;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #last-nav-el{
+        border: none;
+    }
+}
+
+/* Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-nav{
+    ul{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    li{
+        display: flex;
+        padding: 0px 20px;
+    }
+    a{
+        text-decoration: none;
+        color: $lightBlack;
+        font-style: italic;
+        font-weight: 500;
+    }
+}
+
+.header h1{
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    font-size: 52px;
+}
+
+.social-elements{
+    display: flex;
+    align-items: center;
+
+    ul{
+        display: flex;
+        flex-flow: row wrap;
+        margin-right: 40px;
+    }
+    li{
+        display: flex;
+        padding: 0px 10px;
+    }
+    #social-icons{
+        color: #D9BF8D;
+        border: 2px solid #D9BF8D;
+        padding: 8px;
+        border-radius: 50%;
+    }
+    select{
+        background-color: $lightBlack;
+        color: $bodyColor;
+        padding: 10px 5px;
+        text-transform: uppercase;
+        margin-right: 20px;
+        font-size: 12px;
+        outline: none;
+    }
+}
+
+/* Sale */
+.sale{
+    background-image: url(./Components/img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .first-square{
+        border: 1px solid $bodyColor;
+        padding: 5px;
+    }
+    .second-square{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid $bodyColor;
+        padding: 10px 50px;
+        text-transform: uppercase;
+        h3{
+            color: $bodyColor;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        h2{
+            font-size: 48px;
+            margin: 0;
+        }
+        span{
+            font-weight: bold;
+            font-size: 24px;
+        }
+    }
+    button{
+        padding: 10px 20px;
+        background-color: #F09D67;
+        color: $bodyColor;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-top: 5%;
+    }
+    .squares{
+        display: flex;
+        align-items: center;
+        margin-top: 5%;
+        .square{
+            height: 10px;
+            width: 10px;
+            transform: rotate(45deg);
+            display: inline-block;
+            margin-left: 10px;
+            transition: 1s;
+            background-color: #cac8c8;
+        }
+        .square:hover{
+            background-color: $lightBlack;
+        }
+    }
+}
