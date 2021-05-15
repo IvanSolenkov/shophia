@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans&display=swap');
 
 $navColor: #F2F2F2;
 $bodyColor: #FFFFFF;
@@ -6,7 +7,7 @@ $lightBlack: #434343;
 $goldenColor: #D9BF8D;
 
 /* TopNav */
-.top-nav{
+.account-menu{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -291,4 +292,38 @@ $goldenColor: #D9BF8D;
     border-right: 40px solid $bodyColor;
 }
 
+/* Titles */
+.titles{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+     .text-title{
+        flex-grow:0;
+        margin-right: 72px;
+        margin-left: 72px;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .divider{
+        flex-grow:1;
+        height: 1px;
+        background-color: #c7c3c3;
+      }
+      .title-square{
+        height: 15px;
+        width: 15px;
+        transform: rotate(45deg);
+        transition: 1s;
+        background-color: $goldenColor;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .title-square:hover{
+        background-color: $lightBlack;
+    }
+  }
+  
 
