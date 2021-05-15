@@ -324,6 +324,58 @@ $goldenColor: #D9BF8D;
     .title-square:hover{
         background-color: $lightBlack;
     }
+}
+
+/* HandCollection */
+.hand-collection{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    .collection-disc, .collection-off{
+        display: flex;
+        flex-direction: column;
+    }
+    #img1{
+          height: 753px;
+          width: 350px;
+    }
+    #img2{
+        padding: 15px;
+        border: 5px solid #999696;
+        background-color: #999696;
+    }
+    #img2, #img3, #img4, #img5{
+          height: 330px;
+          width: 375px;
+          margin-bottom: 20px;
+    }
+    #img1,#img3, #img4, #img5{
+        padding: 15px;
+        border: 5px solid #E3E3E3;
+    }
+    #img4{
+        margin-bottom: 50px;
+    }
+    button{
+        position: relative;
+        bottom: 15%;
+        left: 40%;
+        width: 100px;
+        padding: 10px;
+        background-color: #F09D67;
+        color: #FFFFFF;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        transition: 1s;
+    }
+    button:hover{
+        background-color: $goldenColor;
+        color: $lightBlack;
+    }
   }
   
 

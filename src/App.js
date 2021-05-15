@@ -4,6 +4,7 @@ import Shipping from "./Components/Shipping/Shipping";
 import Titles from "./Components/Titles/Titles";
 import AccMenu from "./Components/AccMenu/AccMenu";
 import './index.scss'
+import HandCollection from "./Components/HandCollection/HandCollection";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Sale />
       <Shipping />
       <Titles titleName="HandPicked" />
-
+      <HandCollection />
       <Titles titleName="Summer Collection" />
 
       <Titles titleName="Our Brand" />
