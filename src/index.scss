@@ -6,7 +6,7 @@ $bodyColor: #FFFFFF;
 $lightBlack: #434343;
 $goldenColor: #D9BF8D;
 
-/* TopNav */
+/* AccMenu */
 .account-menu{
     display: flex;
     flex-flow: row wrap;
@@ -338,6 +338,11 @@ $goldenColor: #D9BF8D;
     #img1{
           height: 753px;
           width: 350px;
+          opacity: 1;
+          transition: 1s;
+    }
+    #img1:hover, #img2:hover, #img3:hover, #img4:hover, #img5:hover{
+        opacity: 0.7; 
     }
     #img2{
         padding: 15px;
@@ -348,6 +353,8 @@ $goldenColor: #D9BF8D;
           height: 330px;
           width: 375px;
           margin-bottom: 20px;
+          opacity: 1;
+          transition: 1s;
     }
     #img1,#img3, #img4, #img5{
         padding: 15px;
@@ -378,4 +385,90 @@ $goldenColor: #D9BF8D;
     }
   }
   
+
+  /* Responsive Design */
+
+  /* Portrait */
+@media only screen and (max-width: 900px) {
+    /* AccMenu*/
+    .account-menu{
+        justify-content: center;
+
+        .nav-elements ul{
+            justify-content: center;
+        }
+        .nav-elements li{
+            border-right: none;
+            border-bottom: 1px solid #434343;
+            padding: 0px 12px;
+            margin-bottom: 15px;
+        }
+        .nav-elements a{
+            font-size: 16px;
+        }
+    }
+
+    /* Header */
+
+    .header{
+        flex-direction: column;
+
+        .head-nav ul{
+            flex-direction: column;
+        }
+        .head-nav li{
+            margin-bottom: 15px;
+        }
+        .head-nav a{
+            font-size: 20px;
+        }
+
+        .social-elements ul{
+            margin-right: 0;
+        }
+    }
+
+    /* Sale */
+    .sale{
+        height: 65vh;
+        background-position-x: right;
+    }
+
+    /* Shipping */
+    .shipping{
+        .free-shipping:after{
+            left: 78%;
+        }
+        .free-shipping, .support, .return-money{
+            margin-bottom: 15px;
+        }
+        .return-money:after{
+            left: 76%;
+        }
+    }
+    
+
+    /* Titles */
+    .titles{
+        .title-square{
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .text-title{
+            margin-right: 25px;
+            margin-left: 25px;
+        }
+    }
+
+
+    /* HandCollection */
+    .hand-collection #img2, .hand-collection #img3, .hand-collection #img4, .hand-collection #img5{
+        height: 300px;
+        width: 310px;
+    }
+    .hand-collection #img1{
+        width: 310px;
+        margin-bottom: 10px;
+    }
+}
 
