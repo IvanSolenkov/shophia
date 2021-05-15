@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/shophia/static/css/main.734e6a39.chunk.css",
-    "main.js": "/shophia/static/js/main.5ac053ef.chunk.js",
-    "main.js.map": "/shophia/static/js/main.5ac053ef.chunk.js.map",
+    "main.css": "/shophia/static/css/main.bd04ba89.chunk.css",
+    "main.js": "/shophia/static/js/main.53e57eda.chunk.js",
+    "main.js.map": "/shophia/static/js/main.53e57eda.chunk.js.map",
     "runtime-main.js": "/shophia/static/js/runtime-main.055f261b.js",
     "runtime-main.js.map": "/shophia/static/js/runtime-main.055f261b.js.map",
-    "static/js/2.cd434222.chunk.js": "/shophia/static/js/2.cd434222.chunk.js",
-    "static/js/2.cd434222.chunk.js.map": "/shophia/static/js/2.cd434222.chunk.js.map",
+    "static/js/2.80f3b9fd.chunk.js": "/shophia/static/js/2.80f3b9fd.chunk.js",
+    "static/js/2.80f3b9fd.chunk.js.map": "/shophia/static/js/2.80f3b9fd.chunk.js.map",
     "index.html": "/shophia/index.html",
-    "static/css/main.734e6a39.chunk.css.map": "/shophia/static/css/main.734e6a39.chunk.css.map",
-    "static/js/2.cd434222.chunk.js.LICENSE.txt": "/shophia/static/js/2.cd434222.chunk.js.LICENSE.txt",
+    "static/css/main.bd04ba89.chunk.css.map": "/shophia/static/css/main.bd04ba89.chunk.css.map",
+    "static/js/2.80f3b9fd.chunk.js.LICENSE.txt": "/shophia/static/js/2.80f3b9fd.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/shophia/static/media/bg.9e34b067.png"
   },
   "entrypoints": [
     "static/js/runtime-main.055f261b.js",
-    "static/js/2.cd434222.chunk.js",
-    "static/css/main.734e6a39.chunk.css",
-    "static/js/main.5ac053ef.chunk.js"
+    "static/js/2.80f3b9fd.chunk.js",
+    "static/css/main.bd04ba89.chunk.css",
+    "static/js/main.53e57eda.chunk.js"
   ]
 }
