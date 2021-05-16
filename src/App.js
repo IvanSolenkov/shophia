@@ -6,6 +6,7 @@ import AccMenu from "./Components/AccMenu/AccMenu";
 import './index.scss'
 import HandCollection from "./Components/HandCollection/HandCollection";
 import SummerCollection from "./Components/SummerCollection/SummerCollection";
+import OurBrand from "./Components/OurBrand/OurBrand";
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
       <HandCollection />
       <Titles titleName="Summer Collection" />
       <SummerCollection />
-
       <Titles titleName="Our Brand" />
+      <OurBrand />
+      <Titles titleName="Customers Says" />
     </div>
   );
 }
