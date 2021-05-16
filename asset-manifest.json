@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shophia/static/css/main.45630bf7.chunk.css",
-    "main.js": "/shophia/static/js/main.b1ee40c6.chunk.js",
-    "main.js.map": "/shophia/static/js/main.b1ee40c6.chunk.js.map",
+    "main.css": "/shophia/static/css/main.4239dcfa.chunk.css",
+    "main.js": "/shophia/static/js/main.c4c79a4b.chunk.js",
+    "main.js.map": "/shophia/static/js/main.c4c79a4b.chunk.js.map",
     "runtime-main.js": "/shophia/static/js/runtime-main.055f261b.js",
     "runtime-main.js.map": "/shophia/static/js/runtime-main.055f261b.js.map",
-    "static/js/2.80f3b9fd.chunk.js": "/shophia/static/js/2.80f3b9fd.chunk.js",
-    "static/js/2.80f3b9fd.chunk.js.map": "/shophia/static/js/2.80f3b9fd.chunk.js.map",
+    "static/js/2.71207b18.chunk.js": "/shophia/static/js/2.71207b18.chunk.js",
+    "static/js/2.71207b18.chunk.js.map": "/shophia/static/js/2.71207b18.chunk.js.map",
     "index.html": "/shophia/index.html",
-    "static/css/main.45630bf7.chunk.css.map": "/shophia/static/css/main.45630bf7.chunk.css.map",
-    "static/js/2.80f3b9fd.chunk.js.LICENSE.txt": "/shophia/static/js/2.80f3b9fd.chunk.js.LICENSE.txt",
+    "static/css/main.4239dcfa.chunk.css.map": "/shophia/static/css/main.4239dcfa.chunk.css.map",
+    "static/js/2.71207b18.chunk.js.LICENSE.txt": "/shophia/static/js/2.71207b18.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/shophia/static/media/customers-bg.3353387f.png",
     "static/media/customer-female.9a48038d.png": "/shophia/static/media/customer-female.9a48038d.png",
     "static/media/customer-male.141f9e42.png": "/shophia/static/media/customer-male.141f9e42.png",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.055f261b.js",
-    "static/js/2.80f3b9fd.chunk.js",
-    "static/css/main.45630bf7.chunk.css",
-    "static/js/main.b1ee40c6.chunk.js"
+    "static/js/2.71207b18.chunk.js",
+    "static/css/main.4239dcfa.chunk.css",
+    "static/js/main.c4c79a4b.chunk.js"
   ]
 }
