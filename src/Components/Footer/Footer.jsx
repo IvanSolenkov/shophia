@@ -6,6 +6,11 @@ import Service from "../FooterLists/Service/Service"
 import Shops from "../FooterLists/Shops/Shops"
 
 const Footer = () => {
+
+
+    const handleClick = () => {
+        window[`scrollTo`]({ top: 0, behavior: `smooth` });
+    }
     return (
         <div className="footer">
             <div className="footer-items">
@@ -39,7 +44,7 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <RiIcons.RiArrowUpCircleFill id="arrow-btn" />
+                <RiIcons.RiArrowUpCircleFill id="arrow-btn" onClick={handleClick} />
             </div>
         </div>
     );
