@@ -5,6 +5,7 @@ $navColor: #F2F2F2;
 $bodyColor: #FFFFFF;
 $lightBlack: #434343;
 $goldenColor: #D9BF8D;
+$footerColor: #141414;
 
 /* AccMenu */
 .account-menu{
@@ -56,67 +57,65 @@ $goldenColor: #D9BF8D;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-}
-
-.head-nav{
-    ul{
-        display: flex;
-        flex-flow: row wrap;
-    }
-    li{
-        display: flex;
-        padding: 0px 20px;
-    }
-    a{
-        text-decoration: none;
-        color: $lightBlack;
+    h1{
+        font-family: 'Lobster', cursive;
         font-style: italic;
-        font-weight: 500;
-        transition: 0.5s;
+        font-size: 52px;
     }
-    a:hover{
-        color: $goldenColor;
+    .head-nav{
+        ul{
+            display: flex;
+            flex-flow: row wrap;
+        }
+        li{
+            display: flex;
+            padding: 0px 20px;
+        }
+        a{
+            text-decoration: none;
+            color: $lightBlack;
+            font-style: italic;
+            font-weight: 500;
+            transition: 0.5s;
+        }
+        a:hover{
+            color: $goldenColor;
+        }
     }
-}
 
-.header h1{
-    font-family: 'Lobster', cursive;
-    font-style: italic;
-    font-size: 52px;
-}
-
-.social-elements{
-    display: flex;
-    align-items: center;
-
-    ul{
+    .social-elements{
         display: flex;
-        flex-flow: row wrap;
-        margin-right: 40px;
-    }
-    li{
-        display: flex;
-        padding: 0px 10px;
-    }
-    #social-icons{
-        color: $goldenColor;
-        border: 2px solid $goldenColor;
-        padding: 8px;
-        border-radius: 50%;
-        transition: 0.5s;
-    }
-    #social-icons:hover{
-        background-color: $lightBlack;
-        color: $bodyColor;
-    }
-    select{
-        background-color: $lightBlack;
-        color: $bodyColor;
-        padding: 10px 5px;
-        text-transform: uppercase;
-        margin-right: 20px;
-        font-size: 12px;
-        outline: none;
+        align-items: center;
+    
+        ul{
+            display: flex;
+            flex-flow: row wrap;
+            margin-right: 40px;
+        }
+        li{
+            display: flex;
+            padding: 0px 10px;
+        }
+        #social-icons{
+            color: $goldenColor;
+            border: 2px solid $goldenColor;
+            padding: 8px;
+            border-radius: 50%;
+            transition: 0.5s;
+        }
+        #social-icons:hover{
+            background-color: $lightBlack;
+            color: $bodyColor;
+        }
+        select{
+            background-color: $lightBlack;
+            color: $bodyColor;
+            padding: 10px 5px;
+            text-transform: uppercase;
+            margin-right: 20px;
+            font-size: 12px;
+            outline: none;
+        }
     }
 }
 
@@ -199,96 +198,95 @@ $goldenColor: #D9BF8D;
     flex-flow: row wrap;
     justify-content: space-around;
     margin-top: 5%;
-}
-
-.free-shipping, .support{
-    display: flex;
-    align-items: center;
-    padding: 0px 20px;
-    background-color: $goldenColor;
-    color: $bodyColor;
-    width: 325px;
-    height: 105px;
-    position: relative;
-    #shipping-icon{
-        font-size: 40px;
+    .free-shipping, .support{
+        display: flex;
+        align-items: center;
+        padding: 0px 20px;
+        background-color: $goldenColor;
+        color: $bodyColor;
+        width: 325px;
+        height: 105px;
+        position: relative;
+        #shipping-icon{
+            font-size: 40px;
+        }
+        div{
+            margin-left: 25px;
+        }
+        h4{
+            font-size: 27px;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        span{
+            font-size: 14px;
+        }
     }
-    div{
-        margin-left: 25px;
+    .free-shipping:after{
+        content:"";
+        position:absolute;
+        height:0;
+        width:0;
+        left:100%;
+        top:0;
+        border:53px solid transparent;
+        border-left: 40px solid $goldenColor;
     }
-    h4{
-        font-size: 27px;
-        text-transform: uppercase;
-        margin: 0;
+    .support:after{
+        content:"";
+        position:absolute;
+        height:0;
+        width:0;
+        right:100%;
+        top:0;
+        border:53px solid transparent;
+        border-right: 40px solid $goldenColor;
     }
-    span{
-        font-size: 14px;
+    .return-money{
+        display: flex;
+        align-items: center;
+        padding: 0px 45px;
+        background-color: black;
+        color: $bodyColor;
+        width: 325px;
+        height: 105px;
+        position: relative;
+        #shipping-icon{
+            font-size: 40px;
+        }
+        div{
+            margin-left: 25px;
+        }
+        h4{
+            font-size: 27px;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        span{
+            font-size: 14px;
+        }
     }
-}
-.free-shipping:after{
-    content:"";
-    position:absolute;
-    height:0;
-    width:0;
-    left:100%;
-    top:0;
-    border:53px solid transparent;
-    border-left: 40px solid $goldenColor;
-}
-.support:after{
-    content:"";
-    position:absolute;
-    height:0;
-    width:0;
-    right:100%;
-    top:0;
-    border:53px solid transparent;
-    border-right: 40px solid $goldenColor;
-}
-
-.return-money{
-    display: flex;
-    align-items: center;
-    padding: 0px 45px;
-    background-color: black;
-    color: $bodyColor;
-    width: 325px;
-    height: 105px;
-    position: relative;
-    #shipping-icon{
-        font-size: 40px;
+    .return-money::before{
+        content:"";
+        position:absolute;
+        height:0;
+        width:0;
+        right:78%;
+        top:0;
+        border:53px solid transparent;
+        border-left: 40px solid $bodyColor;
     }
-    div{
-        margin-left: 25px;
+    .return-money:after{
+        content:"";
+        position:absolute;
+        height:0;
+        width:0;
+        left:78%;
+        top:0;
+        border:53px solid transparent;
+        border-right: 40px solid $bodyColor;
     }
-    h4{
-        font-size: 27px;
-        text-transform: uppercase;
-        margin: 0;
-    }
-    span{
-        font-size: 14px;
-    }
-}
-.return-money::before{
-    content:"";
-    position:absolute;
-    height:0;
-    width:0;
-    right:78%;
-    top:0;
-    border:53px solid transparent;
-    border-left: 40px solid $bodyColor;
-}
-.return-money:after{
-    content:"";
-    position:absolute;
-    height:0;
-    width:0;
-    left:78%;
-    top:0;
-    border:53px solid transparent;
-    border-right: 40px solid $bodyColor;
+    
 }
 
 /* Titles */
@@ -404,7 +402,6 @@ $goldenColor: #D9BF8D;
       }
   }
 
-
   /* AddButton */
 
   /* Our Brand */
@@ -449,10 +446,123 @@ $goldenColor: #D9BF8D;
           }
       }
   }
+
+  /* Footer */
+  .footer{
+      background-color: $footerColor;
+
+      .footer-items{
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+      }
+
+      .shops{
+         h4{
+            margin-right: 55px;
+         }
+      }
+      .shops, .information, .service{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 72px;
+        h4{
+            color: $bodyColor;
+            text-transform: uppercase;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+        }
+        li{
+            display: flex;
+            color: #6C6C6C;
+            font-weight: bold;
+            font-size: 12px;
+            margin-bottom: 10px;
+            transition: 1s;
+            cursor: pointer;
+        }
+        li:hover{
+            color: $goldenColor;
+        }
+    }
+    .connection{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: $bodyColor;
+        h4{
+            text-transform: uppercase;
+        }
+        p{
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        span{
+            font-family: 'Kaushan Script', cursive;
+            text-transform: lowercase;
+            font-weight: 200;
+        }
+        .input-connection{
+            position: relative;
+            input{
+                background-color: transparent;
+                outline: none;
+                border: 1px solid #6C6C6C;
+                padding: 12px;
+                font-size: 12px;
+                width: 250px;
+                color: $bodyColor;
+            }
+            button{
+                position: absolute;
+                top: 2px;
+                right: 1px;
+                background-color: #323031;
+                color: $bodyColor;
+                outline: none;
+                border: none;
+                padding: 11px 12px;
+                text-transform: uppercase;
+                font-size: 12px;
+                cursor: pointer;
+                transition: 1s;
+            }
+            button:hover{
+                background-color: $bodyColor;
+                color: $footerColor;
+            }
+        }
+        .social-items{
+            ul{
+                display: flex;
+                padding: 0;
+            }
+            li{
+                display: flex;
+                margin-right: 20px;
+            }
+            #social-icons{
+                padding: 10px;
+                border: 1px solid white;
+                border-radius: 50%;
+                color: $footerColor;
+                background-color: $bodyColor;
+                font-size: 24px;
+                transition: 1s;
+            }
+            #social-icons:hover{
+                background-color: $footerColor;
+                color: $bodyColor;
+            }
+        }
+    }
+  }
   
 
   /* Responsive Design */
-
   /* Portrait */
 @media only screen and (max-width: 900px) {
     /* AccMenu*/
@@ -471,23 +581,26 @@ $goldenColor: #D9BF8D;
     }
 
     /* Header */
-
     .header{
         flex-direction: column;
 
-        .head-nav ul{
-            flex-direction: column;
-            padding: 0;
+        .head-nav{
+            ul{
+                flex-direction: column;
+                padding: 0;
+            }
+            li{
+                margin-bottom: 15px;
+            }
+            a{
+                font-size: 20px;
+            }
         }
-        .head-nav li{
-            margin-bottom: 15px;
-        }
-        .head-nav a{
-            font-size: 20px;
-        }
-
-        .social-elements ul{
-            margin-right: 0;
+        
+        .social-elements{
+            ul{
+                margin-right: 0;
+            }
         }
     }
 
@@ -555,6 +668,16 @@ $goldenColor: #D9BF8D;
     .customers{
         height: 140vh;
         align-items: center;
+    }
+
+    /* Footer */
+    .footer{
+        .footer-items{
+            justify-content: center;
+        }
+        .connection{
+            align-items: center;
+        }
     }
 }
 

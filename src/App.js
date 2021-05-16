@@ -8,6 +8,7 @@ import HandCollection from "./Components/HandCollection/HandCollection";
 import SummerCollection from "./Components/SummerCollection/SummerCollection";
 import OurBrand from "./Components/OurBrand/OurBrand";
 import Customers from "./Components/Customers/Customers";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <OurBrand />
       <Titles titleName="Customers Says" />
       <Customers />
+      <Footer />
     </div>
   );
 }
