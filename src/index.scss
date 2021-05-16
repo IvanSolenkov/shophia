@@ -9,7 +9,6 @@ $goldenColor: #D9BF8D;
 /* AccMenu */
 .account-menu{
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     background-color: $navColor;
@@ -384,6 +383,24 @@ $goldenColor: #D9BF8D;
         color: $lightBlack;
     }
   }
+
+  /* SummerCollection */
+  .summer-collection{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid $lightBlack;
+      padding: 10px;
+      .top-collection img, .bottom-collection img{
+          width: 290px;
+          height: 330px;
+          margin-right: 20px;
+          margin-bottom: 15px;
+      }
+  }
+
+
+  /* AddButton */
   
 
   /* Responsive Design */
@@ -392,14 +409,11 @@ $goldenColor: #D9BF8D;
 @media only screen and (max-width: 900px) {
     /* AccMenu*/
     .account-menu{
-        justify-content: center;
-
         .nav-elements ul{
             justify-content: center;
         }
         .nav-elements li{
             border-right: none;
-            border-bottom: 1px solid #434343;
             padding: 0px 12px;
             margin-bottom: 15px;
         }
@@ -415,6 +429,7 @@ $goldenColor: #D9BF8D;
 
         .head-nav ul{
             flex-direction: column;
+            padding: 0;
         }
         .head-nav li{
             margin-bottom: 15px;
@@ -472,6 +487,20 @@ $goldenColor: #D9BF8D;
     .hand-collection #img1{
         width: 310px;
         margin-bottom: 10px;
+    }
+
+    /* SummerCollection */
+    .summer-collection{
+        .top-collection, .bottom-collection{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .top-collection img, .bottom-collection img{
+            height: 250px;
+            width: 230px;
+            margin-right: 0;
+        }
     }
 }
 
