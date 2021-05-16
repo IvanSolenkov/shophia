@@ -7,6 +7,7 @@ import './index.scss'
 import HandCollection from "./Components/HandCollection/HandCollection";
 import SummerCollection from "./Components/SummerCollection/SummerCollection";
 import OurBrand from "./Components/OurBrand/OurBrand";
+import Customers from "./Components/Customers/Customers";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Titles titleName="Our Brand" />
       <OurBrand />
       <Titles titleName="Customers Says" />
+      <Customers />
     </div>
   );
 }

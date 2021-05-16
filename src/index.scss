@@ -396,6 +396,11 @@ $goldenColor: #D9BF8D;
           height: 330px;
           margin-right: 20px;
           margin-bottom: 15px;
+          opacity: 1;
+          transition: 1s;
+      }
+      .top-collection img:hover, .bottom-collection img:hover{
+          opacity: 0.7;
       }
   }
 
@@ -410,6 +415,39 @@ $goldenColor: #D9BF8D;
       align-items: center;
       margin-top: 6%;
       margin-bottom: 8%;
+  }
+
+  /* Customers */
+  .customers{
+      background-image: url(./Components/img/customers/customers-bg.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 60vh;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .female-customer, .male-customer{
+          display: flex;
+          align-items: center;
+          p{
+              color: $bodyColor;
+              font-family: 'Kaushan Script', cursive;
+              font-weight: 200;
+              font-size: 20px;
+          }
+          h2{
+            font-family: 'Kaushan Script', cursive;
+            font-weight: bold;
+            font-size: 30px;
+            margin-top: 50px;
+            margin-bottom: 10px;
+          }
+          span{
+              color: #817E7D;
+              text-transform: uppercase;
+              font-weight: bold;
+          }
+      }
   }
   
 
@@ -511,6 +549,12 @@ $goldenColor: #D9BF8D;
             width: 230px;
             margin-right: 0;
         }
+    }
+
+    /* Customers */
+    .customers{
+        height: 140vh;
+        align-items: center;
     }
 }
 
