@@ -768,6 +768,11 @@ $footerColor: #141414;
             width: 230px;
             margin-right: 0;
         }
+        .model-div{
+            button{
+                left: 35px;
+            }
+        }
     }
 
     /* Customers */
@@ -784,6 +789,6 @@ $footerColor: #141414;
         .connection{
             align-items: center;
         }
-    }
+    }    
 }
 
