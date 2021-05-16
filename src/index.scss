@@ -389,6 +389,9 @@ $footerColor: #141414;
       align-items: center;
       border: 1px solid $lightBlack;
       padding: 10px;
+      .top-collection, .bottom-collection{
+          display: flex;
+      }
       .top-collection img, .bottom-collection img{
           width: 290px;
           height: 330px;
@@ -400,9 +403,80 @@ $footerColor: #141414;
       .top-collection img:hover, .bottom-collection img:hover{
           opacity: 0.7;
       }
+      .model-div{
+          position: relative;
+          button{
+            position: absolute;
+            bottom: 19px;
+            left: 60px;
+          }
+      }
   }
 
   /* AddButton */
+  .add-button{
+      button{
+        width: 165px;
+        height: 0px;
+        border-right: 35px solid transparent;
+        border-left: 35px solid transparent;
+        border-bottom: 40px solid $footerColor;
+        border-top: none;
+        color: $bodyColor;
+        background-color: transparent;
+        outline: none;
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 1s;
+      }
+      button:hover{
+        border-bottom: 40px solid $goldenColor;
+        color: $footerColor;
+      }
+    }
+
+  /* OrangeButton */
+ .orange-btn{
+    button{
+      width: 165px;
+      height: 0px;
+      border-right: 35px solid transparent;
+      border-left: 35px solid transparent;
+      border-bottom: 40px solid #F0975D;
+      border-top: none;
+      color: $bodyColor;
+      background-color: transparent;
+      outline: none;
+      font-size: 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: 1s;
+    }
+    button:hover{
+      border-bottom: 40px solid $goldenColor;
+      color: $footerColor;
+    }
+  }
+
+  /* Discount */
+  .discount{
+      p{
+          background-color: #FDAB11;
+          padding: 12px;
+          border-radius: 50%;
+          color: $bodyColor;
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          font-weight: bold;
+      }
+      span{
+          font-size: 10px;
+      }
+  }
 
   /* Our Brand */
   .our-brand{

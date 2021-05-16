@@ -1,7 +1,7 @@
 const AddButton = () => {
     return (
         <div className="add-button">
-            <h2>Add Button</h2>
+            <button>+ Add To Cart</button>
         </div>
     );
 }
