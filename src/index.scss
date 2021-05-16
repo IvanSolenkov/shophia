@@ -438,12 +438,15 @@ $goldenColor: #D9BF8D;
     .shipping{
         .free-shipping:after{
             left: 78%;
+            border: 5px solid transparent;
         }
         .free-shipping, .support, .return-money{
             margin-bottom: 15px;
         }
         .return-money:after{
             left: 76%;
+            border: 48px solid transparent;
+            border-right: 40px solid #FFFFFF;
         }
     }
     
