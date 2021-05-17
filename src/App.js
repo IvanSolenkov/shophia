@@ -1,22 +1,22 @@
 import Header from "./Components/Header/Header";
 import Sale from "./Components/Sale/Sale";
-import Shipping from "./Components/Shipping/Shipping";
+import CustomerService from "./Components/CustomerService/CustomerService";
 import Titles from "./Components/Titles/Titles";
-import AccMenu from "./Components/AccMenu/AccMenu";
+import AccountMenu from "./Components/AccountMenu/AccountMenu";
 import './index.scss'
 import HandCollection from "./Components/HandCollection/HandCollection";
 import SummerCollection from "./Components/SummerCollection/SummerCollection";
 import OurBrand from "./Components/OurBrand/OurBrand";
-import Customers from "./Components/Customers/Customers";
-import Footer from "./Components/Footer/Footer";
+import Testimonials from "./Components/Testimonials/Testimonials";
+import MainFooter from "./Components/MainFooter/MainFooter";
 
 function App() {
   return (
     <div className="App">
-      <AccMenu />
+      <AccountMenu />
       <Header />
       <Sale />
-      <Shipping />
+      <CustomerService />
       <Titles titleName="HandPicked" />
       <HandCollection />
       <Titles titleName="Summer Collection" />
@@ -24,8 +24,8 @@ function App() {
       <Titles titleName="Our Brand" />
       <OurBrand />
       <Titles titleName="Customers Says" />
-      <Customers />
-      <Footer />
+      <Testimonials />
+      <MainFooter />
     </div>
   );
 }

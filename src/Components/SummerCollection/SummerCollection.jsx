@@ -1,5 +1,5 @@
-import AddButton from '../AddButton/AddButton';
-import AddOrangeBtn from '../AddOrangeBtn/AddOrangeBtn';
+import AddButton from '../Buttons/AddButton/AddButton';
+import AddOrangeBtn from '../Buttons/AddOrangeBtn/AddOrangeBtn';
 import Discount from '../Discount/Discount';
 import model1 from '../img/summer-collection/model-1.png';
 import model2 from '../img/summer-collection/model-2.png';
